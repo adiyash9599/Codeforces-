@@ -48,7 +48,7 @@ public class BYear {
             return;
         }
 
-        for (int i = y + 1; i <= 9000; i++) {
+        for (int i = y + 1;; i++) {
             String str = Integer.toString(i);
             // if (str.charAt(0) != str.charAt(1) && str.charAt(1) != str.charAt(2) &&
             // str.charAt(2) != str.charAt(3)
